@@ -23,7 +23,9 @@ class ModelManager(object):
             "description": model.description,
             "model_version":model.version,
             "major_version": model.major_version,
-            "minor_version": model.minor_version}  for model in cls.models]
+            "minor_version": model.minor_version,
+            "input_schema": model.input_schema,
+            "output_schema": model.output_schema}  for model in cls.models]
         return model_objects
     @classmethod
     def get_model(cls, qualified_name):
