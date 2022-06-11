@@ -1,0 +1,1 @@
+{"requirements": [{"module": "pandas", "version": "1.4.1", "type": "installable"}, {"module": "numpy", "version": "1.21.5", "type": "installable"}, {"module": "sklearn", "version": "1.0.2", "type": "installable"}]}
